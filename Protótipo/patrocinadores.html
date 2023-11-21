@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>ANIMALEC</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+        <link rel="stylesheet" href="css/animalec.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+
+    <body>
+        <div class="container-fluid">
+            <div>
+                <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+                    <a href="#" class="navbar-brand ml-5">
+                        <img class="router-link-active" src="images/animalec_line.png" title="Página principal do Animalec" style="width: 250px; height: 50px;">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav ml-auto mr-5">
+                            <li class="nav-item"><a href="#" class="nav-link" target="_self">ANIMAIS</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link" target="_self">QUIZ</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link" target="_self">CONTACTOS</a></li>
+                            <li class="nav-item"><a href="index.html" class="nav-link" target="_self">INICIO</a></li>
+                            <li class="nav-item"><a href="patrocinadores.html" class="nav-link" target="_self">PATROCINADORES</a></li>
+                            <li class="nav-item"><a href="especialistas.html" class="nav-link" target="_self">ESPECIALISTAS</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="row text-center">
+                <div class="col">
+                    <h2 class="page-section-heading mt-5">GESTÃO DE PATROCINADORES</h2>
+                </div>
+            </div>
+
+            <section class="page-section">
+            
+                <div class="row mb-4">
+                    <div class="col-1"></div>
+                    <div class="col">
+                        <a href="addPatrocinador.html" class="btn btn-outline-success mr-2 mt-2">ADICIONAR PATROCINADOR</a>
+                        <a href="index.html" class="btn btn-outline-info mr-2 mt-2 router-link-active"> MENU PRINCIPAL</a>
+                    </div>
+                    <div class="col-1"></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col">
+                        <table class="table table-striped">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">NOME</th>
+                                    <th scope="col">ANIMAL</th>
+                                    <th scope="col">QUOTA</th>
+                                    <th scope="col">AÇÕES</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="pt-4">Pessoa 1</td>
+                                    <td class="pt-4">Dragão de Komodo</td>
+                                    <td class="pt-4">100€</td>
+                                    <td>
+                                        <button class="btn btn-outline-info mr-2">EDITAR </button>
+                                        <button type="button" class="btn btn-outline-success mr-2"> VER </button>
+                                        <button type="button" class="btn btn-outline-danger mr-2"> REMOVER </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="pt-4">Pessoa 2</td>
+                                    <td class="pt-4">Gato</td>
+                                    <td class="pt-4">60€</td>
+                                    <td>
+                                        <button class="btn btn-outline-info mr-2"> EDITAR </button>
+                                        <button type="button" class="btn btn-outline-success mr-2"> VER </button>
+                                        <button type="button" class="btn btn-outline-danger mr-2">REMOVER </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="pt-4">Pessoa 3</td>
+                                    <td class="pt-4">Papagaio</td>
+                                    <td class="pt-4">120€</td>
+                                    <td>
+                                        <button class="btn btn-outline-info mr-2"> EDITAR </button>
+                                        <button type="button" class="btn btn-outline-success mr-2"> VER </button>
+                                        <button type="button" class="btn btn-outline-danger mr-2"> REMOVER </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="pt-4">Pessoa 4</td>
+                                    <td class="pt-4">Vaca</td>
+                                    <td class="pt-4">120€</td>
+                                    <td>
+                                        <button class="btn btn-outline-info mr-2"> EDITAR </button>
+                                        <button type="button" class="btn btn-outline-success mr-2">VER </button>
+                                        <button type="button" class="btn btn-outline-danger mr-2"> REMOVER </button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-1"></div>
+                </div>
+            </section>
+        </div>
+    </body>
+</html>

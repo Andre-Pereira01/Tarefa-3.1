@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>ANIMALEC</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+        <link rel="stylesheet" href="css/animalec.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+
+    <body>
+
+        <div class="container-fluid">
+            <div>
+                <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+                    <a href="#" class="navbar-brand ml-5">
+                        <img class="router-link-active" src="images/animalec_line.png" title="Página principal do Animalec" style="width: 250px; height: 50px;">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav ml-auto mr-5">
+                            <li class="nav-item"><a href="#" class="nav-link" target="_self">ANIMAIS</a>
+                            </li>
+                            <li class="nav-item"><a href="#" class="nav-link" target="_self">QUIZ</a>
+                            </li>
+                            <li class="nav-item"><a href="#" class="nav-link" target="_self">CONTACTOS</a></li>
+                            <li class="nav-item"><a href="index.html" class="nav-link" target="_self">INICIO</a></li>
+                            <li class="nav-item"><a href="patrocinadores.html" class="nav-link" target="_self">PATROCINADORES</a></li>
+                            <li class="nav-item"><a href="especialistas.html" class="nav-link" target="_self">ESPECIALISTAS</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="row text-center">
+                <div class="col">
+                    <h2 class="page-section-heading mt-5">ADICIONAR ESPECIALISTA</h2>
+                </div>
+            </div>
+            <section class="page-section">           
+                <div class="row">
+                    <div class="col-2"></div>
+                    <div class="col">
+                        <form>
+                            <div class="form-group">
+                                <input type="text" id="txtName" placeholder="Nome do Especialista" required="required" class="form-control form-control-lg">
+                            </div>
+                            <div class="form-group">
+                                <select id="sltGroup" required="required" class="form-control form-control-lg">
+                                    <option value="">Escolha um grupo</option>
+                                    <option value="mamifero">Mamífero</option>
+                                    <option value="anfibio">Anfíbio</option>
+                                    <option value="ave">Ave</option>
+                                    <option value="reptil">Réptil</option>
+                                </select>
+                            </div>
+                            <a href="especialistas.html" class="btn btn-outline-success btn-lg mb-2 d-block"> ADICIONAR</a>
+                            <a href="especialistas.html" class="btn btn-outline-danger btn-lg d-block"> CANCELAR</a>
+                        </form>
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+            </section>
+            
+        </div>
+    </body>
+</html>
