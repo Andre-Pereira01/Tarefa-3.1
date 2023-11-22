@@ -7,6 +7,11 @@
         <link rel="stylesheet" href="css/animalec.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script>
+            function confirmarRemover() {
+                return confirm("Tem a certeza que quer remover?");
+            }
+        </script>
     </head>
 
     <body>
@@ -25,6 +30,8 @@
                             <li class="nav-item"><a href="#" class="nav-link" target="_self">QUIZ</a></li>
                             <li class="nav-item"><a href="#" class="nav-link" target="_self">CONTACTOS</a></li>
                             <li class="nav-item"><a href="index.html" class="nav-link" target="_self">INICIO</a></li>
+                            <li class="nav-item"><a href="patrocinadores.html" class="nav-link" target="_self">PATROCINADORES</a></li>
+                            <li class="nav-item"><a href="especialistas.html" class="nav-link" target="_self">ESPECIALISTAS</a></li>
                         </ul>
                     </div>
                 </nav>
@@ -63,36 +70,40 @@
                                     <td class="pt-4">Pessoa 1</td>
                                     <td class="pt-4">Mamífero</td>
                                     <td>
-                                        <button class="btn btn-outline-info mr-2">EDITAR </button>
-                                        <button type="button" class="btn btn-outline-success mr-2">VER </button>
-                                        <button type="button" class="btn btn-outline-danger mr-2">REMOVER </button>
+                                        <a href="editEspecialista.html" class="btn btn-outline-info mr-2">EDITAR </a>
+                                        <a href="verEspecialista.html" class="btn btn-outline-success mr-2">VER </a>
+                                        <button type="button" class="btn btn-outline-danger mr-2" onclick="if(confirmarRemover()) alert('Removido com sucesso!')"> REMOVER </button>
+
                                     </td>
                                 </tr>
                                 <tr>
                                     <td class="pt-4">Pessoa 2</td>
                                     <td class="pt-4">Reptil</td>
                                     <td>
-                                        <button class="btn btn-outline-info mr-2"> EDITAR </button>
-                                        <button type="button" class="btn btn-outline-success mr-2"> VER </button>
-                                        <button type="button" class="btn btn-outline-danger mr-2"> REMOVER </button>
+                                        <a href="editEspecialista.html" class="btn btn-outline-info mr-2">EDITAR </a>
+                                        <a href="verEspecialista.html" class="btn btn-outline-success mr-2">VER </a>
+                                        <button type="button" class="btn btn-outline-danger mr-2" onclick="if(confirmarRemover()) alert('Removido com sucesso!')"> REMOVER </button>
+
                                     </td>
                                 </tr>
                                 <tr>
                                     <td class="pt-4">Pessoa 3</td>
                                     <td class="pt-4">Ave</td>
                                     <td>
-                                        <button class="btn btn-outline-info mr-2"> EDITAR </button>
-                                        <button type="button" class="btn btn-outline-success mr-2"> VER </button>
-                                        <button type="button" class="btn btn-outline-danger mr-2"> REMOVER </button>
+                                        <a href="editEspecialista.html" class="btn btn-outline-info mr-2">EDITAR </a>
+                                        <a href="verEspecialista.html" class="btn btn-outline-success mr-2">VER </a>
+                                        <button type="button" class="btn btn-outline-danger mr-2" onclick="if(confirmarRemover()) alert('Removido com sucesso!')"> REMOVER </button>
+
                                     </td>
                                 </tr>
                                 <tr>
                                     <td class="pt-4">Pessoa 4</td>
                                     <td class="pt-4">Anfíbio</td>
                                     <td>
-                                        <button class="btn btn-outline-info mr-2"> EDITAR </button>
-                                        <button type="button" class="btn btn-outline-success mr-2"> VER </button>
-                                        <button type="button" class="btn btn-outline-danger mr-2"> REMOVER </button>
+                                        <a href="editEspecialista.html" class="btn btn-outline-info mr-2">EDITAR </a>
+                                        <a href="verEspecialista.html" class="btn btn-outline-success mr-2">VER </a>
+                                        <button type="button" class="btn btn-outline-danger mr-2" onclick="if(confirmarRemover()) alert('Removido com sucesso!')"> REMOVER </button>
+
                                     </td>
                                 </tr>
                             </tbody>

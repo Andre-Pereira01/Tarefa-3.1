@@ -7,6 +7,11 @@
         <link rel="stylesheet" href="css/animalec.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script>
+            function confirmarRemover() {
+                return confirm("Tem a certeza que quer remover?");
+            }
+        </script>
     </head>
 
     <body>
@@ -67,9 +72,10 @@
                                     <td class="pt-4">Dragão de Komodo</td>
                                     <td class="pt-4">100€</td>
                                     <td>
-                                        <button class="btn btn-outline-info mr-2">EDITAR </button>
-                                        <button type="button" class="btn btn-outline-success mr-2"> VER </button>
-                                        <button type="button" class="btn btn-outline-danger mr-2"> REMOVER </button>
+                                        <a href="editPatrocinador.html" class="btn btn-outline-info mr-2">EDITAR</a>
+                                        <!-- <button class="btn btn-outline-info mr-2">EDITAR </button> -->
+                                        <a href="verPatrocinador.html" class="btn btn-outline-success mr-2"> VER </a>
+                                        <button type="button" class="btn btn-outline-danger mr-2" onclick="if(confirmarRemover()) alert('Removido com sucesso!')"> REMOVER </button>
                                     </td>
                                 </tr>
                                 <tr>
@@ -77,9 +83,9 @@
                                     <td class="pt-4">Gato</td>
                                     <td class="pt-4">60€</td>
                                     <td>
-                                        <button class="btn btn-outline-info mr-2"> EDITAR </button>
-                                        <button type="button" class="btn btn-outline-success mr-2"> VER </button>
-                                        <button type="button" class="btn btn-outline-danger mr-2">REMOVER </button>
+                                        <a href="editPatrocinador.html" class="btn btn-outline-info mr-2">EDITAR</a>
+                                        <a href="verPatrocinador.html" class="btn btn-outline-success mr-2"> VER </a>
+                                        <button type="button" class="btn btn-outline-danger mr-2" onclick="if(confirmarRemover()) alert('Removido com sucesso!')"> REMOVER </button>
                                     </td>
                                 </tr>
                                 <tr>
@@ -87,9 +93,9 @@
                                     <td class="pt-4">Papagaio</td>
                                     <td class="pt-4">120€</td>
                                     <td>
-                                        <button class="btn btn-outline-info mr-2"> EDITAR </button>
-                                        <button type="button" class="btn btn-outline-success mr-2"> VER </button>
-                                        <button type="button" class="btn btn-outline-danger mr-2"> REMOVER </button>
+                                        <a href="editPatrocinador.html" class="btn btn-outline-info mr-2">EDITAR</a>
+                                        <a href="verPatrocinador.html" class="btn btn-outline-success mr-2"> VER </a>
+                                        <button type="button" class="btn btn-outline-danger mr-2" onclick="if(confirmarRemover()) alert('Removido com sucesso!')"> REMOVER </button>
                                     </td>
                                 </tr>
                                 <tr>
@@ -97,9 +103,9 @@
                                     <td class="pt-4">Vaca</td>
                                     <td class="pt-4">120€</td>
                                     <td>
-                                        <button class="btn btn-outline-info mr-2"> EDITAR </button>
-                                        <button type="button" class="btn btn-outline-success mr-2">VER </button>
-                                        <button type="button" class="btn btn-outline-danger mr-2"> REMOVER </button>
+                                        <a href="editPatrocinador.html" class="btn btn-outline-info mr-2">EDITAR</a>
+                                        <a href="verPatrocinador.html" class="btn btn-outline-success mr-2"> VER </a>
+                                        <button type="button" class="btn btn-outline-danger mr-2" onclick="if(confirmarRemover()) alert('Removido com sucesso!')"> REMOVER </button>
                                     </td>
                                 </tr>
                             </tbody>
